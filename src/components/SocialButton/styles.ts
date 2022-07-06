@@ -23,6 +23,12 @@ export const Button = styled('button', {
   '& svg': {
     color: '$blue100',
     fontSize: '1.5rem',
-  }
+  },
 
+  transition: 'all 0.2s',
+
+  '&:hover': {
+    opacity: 0.95,
+    cursor: 'pointer',
+  }
 });

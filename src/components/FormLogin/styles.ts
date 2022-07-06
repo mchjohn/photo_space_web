@@ -35,11 +35,18 @@ export const Container = styled('form', {
     borderRadius: 4,
     background: '$gray900',
 
+    transition: 'all 0.2s',
+
     '& span': {
       fontSize: '1rem',
       fontWeight: 700,
       color: '$blue100',
     },
+  },
+
+  '& button:hover': {
+    opacity: 0.9,
+    cursor: 'pointer',
   },
 
   '& > span': {
